@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--#include virtual="inc/head.html" -->
+    <title>VPHAS+: Survey Design</title>
+  </head>
+  <body>
+    <!--#include virtual="inc/navbar.html" -->
+    <div class="container">
+    <!-- CONTENT STARTS HERE -->
+
+
+      <div class="page-header">
+        <h1>Survey Design</h1>
+      </div>
+
+<p><b>Survey footprint</b><br> 
+The main survey strip is 10 degrees wide and is defined in Galactic
+  coordinates as all latitudes within 5 degrees of the Galactic
+  Equator (GE).  There are two Bulge extensions that expand this
+  latitude range to 10 degrees away from the GE.  It takes a tiling of 
+  2269 OmegaCam fields to cover the &tilde;2000 sq.deg footprint</p>
+
+<p><b>Proposed data acquisition strategy</b><br> 
+  The original plan was to observe every field contemporaneously in
+  the Sloan u, g, r and i broadbands, and also in H&alpha; narrowband
+  (using the segmented filter constructed for this survey, named
+  NB_659) - and to repeat these exposures in a suitably chosen offset
+  position.</p>  
+
+<p><b>Actual pattern</b><br> 
+  For VST operational reasons the consortium was
+  asked by ESO to split the data-taking, executing the blue/red filters in
+  darker/brighter time.  To meet this request, we submit separated u/g/r and
+  Ha/r/i observing blocks to the queue, including r band exposures in
+  both sets so that the two filter sets may be tied together post-observing
+  (as desired).</p>   
+
+<p><b>Survey depth and seeing targets</b><br> 
+The aim is 5&sigma; in all filters down to at least
+  &tilde;20th magnitude (Vega system).  The high quality of the Paranal site is
+  likely to mean this will usually be bettered, particularly in g and r.  Typical survey seeing
+  is expected to be close to 1 arcsec, improving to &tilde;0.8-0.9
+  arcsec in the densest fields.</p>
+
+<a href="/images/offset-combination.png"><img alt="OmegaCam offsetting" class="centred" src="/images/offset-combination_thumb.png" /></a>
+
+<p><b>Offsetting strategy</b><br>  
+  Refer to the figure above.  For the broadband
+  exposures the
+  outermost placements (black, blue) of the OmegaCam footprint will be
+  used.  For NB_659 exposures, the effects of vignetting due to
+  the segment separators have to be countered by taking data in a
+  third intermediate offset position (shown in green).</p>
+
+<p><b>Properties of the NB_659 filter</b><br>
+  This segmented filter was purchased by members of the VPHAS+
+  consortium.  It was received and tested in Munich in 2009, and
+  checked again before delivery to Paranal in 2011 (the combined test
+  reports are <a href="filter-report.pdf">here</a>).  Its stability in
+  operation on the VST has been monitored to late 2012 and is
+  summarised <a href="ESO_filter_report_NB659.pdf">here</a>.</p>
+
+
+    <!-- CONTENT ENDS HERE -->
+    </div><!-- /container -->
+    <!--#include virtual="inc/footer.html" -->
+  </body>
+</html>

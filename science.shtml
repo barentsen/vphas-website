@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--#include virtual="inc/head.html" -->
+    <title>VPHAS+: Science applications</title>
+  </head>
+  <body>
+    <!--#include virtual="inc/navbar.html" -->
+    <div class="container">
+    <!-- CONTENT STARTS HERE -->
+
+
+      <div class="page-header">
+        <h1>Science using VPHAS+ data</h1>
+      </div>
+
+      <p>VPHAS+ will reveal emission line objects of the following types:</p>
+      <ul>
+        <li>Wolf-Rayet and other massive evolved emission line stars</li>
+        <li>compact planetary nebulae and rapidly evolving post-AGB stars</li>
+        <li>Be stars of all types - including young Herbig stars</li>
+        <li>clustered and field T Tau stars</li>
+        <li>a range of interacting binary stars: symbiotics, 'supersoft'
+        compact binaries, WD/NS/BH accreting binaries</li>
+      </ul>
+      <p>Different filter combinations support effective selection of the following:</p>
+      <ul>
+        <li>white dwarfs, horizontal branch stars and large numbers of
+        early A-type stars via strong H&alpha; absorption</li>
+        <li>OB stars and other intrinsically blue objects</li>
+        <li>post common-envelope binaries</li>
+        <li>red giants and dwarfs, located within distinct colour-colour tracks</li>
+      </ul>
+      <p>The H&alpha; narrowband images reveal diffuse ionised nebulae
+        of all types: HII regions, supernova remnants, spatially-resolved
+        planetary nebulae.  The sensitivity of the r-H&alpha; colour to
+        intrinsic stellar colour can also be exploited along with
+        the broadband data to trace line-of-sight extinction, at high
+        angular resolution.</p>
+
+
+    <!-- CONTENT ENDS HERE -->
+    </div><!-- /container -->
+    <!--#include virtual="inc/footer.html" -->
+  </body>
+</html>

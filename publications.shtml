@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--#include virtual="inc/head.html" -->
+    <title>VPHAS+: Publications</title>
+  </head>
+  <body>
+    <!--#include virtual="inc/navbar.html" -->
+    <div class="container">
+    <!-- CONTENT STARTS HERE -->
+
+
+      <div class="page-header">
+        <h1>VPHAS Documents and Publications</h1>
+      </div>
+
+      <h2>Published articles</h2>
+
+<table class="table table-condensed table-striped">
+<thead>
+      <tr>
+        <th>Link and Title</th>
+        <th>Doc. type</th>
+        <th>Authors</th>
+        <th>Description, reference</th>
+      </tr>
+</thead>
+      <tr>
+        <td class="title"><a href="./vphas-def-rev.pdf">The VST
+        Photometric H&alpha; Survey of the Southern Galactic Plane
+        and Bulge (VPHAS+)</a></td>
+        <td class="doctype">PDF</td>
+        <td class="auth">Drew J. E., et al.</td>
+        <td class="ref">MNRAS, accepted Feb 2014</td>
+      </tr>
+      <tr>
+        <td class="title"><a href="./vphas-supplement.pdf">- supplementary
+        colour tables to the above</a></td>
+        <td class="doctype">PDF</td>
+        <td class="auth">- as above</td>
+        <td class="ref">- online appendix to the above</td>
+      </tr>
+      <tr>
+        <td class="title"><a href="http://ukads.nottingham.ac.uk/abs/2014MNRAS.437L...1W">The
+        ionized nebula surrounding the red supergiant W26 in
+        Westerlund 1</a></td>
+        <td class="doctype">ADS</td>
+        <td class="auth">Wright N. J., et al.</td>
+        <td class="ref">2014, MNRAS, 437, L1</td>
+      </tr>
+      <tr>
+        <td class="title"><a href="./Messenger-Drew.pdf">VST
+        Photometric H&alpha; Survey of the Southern Galactic Plane
+        and Bulge, VPHAS+</a></td>
+        <td class="doctype">PDF</td>
+        <td class="auth">Drew J. E., et al.</td>
+        <td class="ref">2013, The Messenger, 154, 41</td>
+      </tr>
+      </table>
+
+<h2>Proposals and other documents</h2>
+
+<table class="table table-condensed table-striped">
+<thead>
+      <tr>
+        <th>Link and Title</th>
+        <th>Doc. type</th>
+        <th>Authors</th>
+        <th>Description, reference</th>
+      </tr>
+</thead>
+      <tr>
+        <td class="title"><a href="./VPHAS_plus.pdf">Revised VPHAS+ Proposal</a></td>
+        <td class="doctype">PDF</td>
+        <td class="auth">Consortium</td>
+        <td class="ref">Submitted to ESO PSP and OPC</td>
+      </tr>
+      <tr>
+        <td class="title"><a href="./vphas++.pdf">Proposal to add
+        Bulge to survey footprint</a></td>
+        <td class="doctype">PDF</td>
+        <td class="auth">Consortium</td>
+        <td class="ref">October 2010 - submitted to ESO PSP</td>
+      </tr>
+      <tr>
+        <td class="title"><a href="./vphas_SMP_rev_010711.pdf">VPHAS+
+        Management Plan</a></td>
+        <td class="doctype">PDF</td>
+        <td class="auth">Consortium</td>
+        <td class="ref">July 2011 - final revised SMP</td>
+      </tr>
+  </table>
+
+
+    <!-- CONTENT ENDS HERE -->
+    </div><!-- /container -->
+    <!--#include virtual="inc/footer.html" -->
+  </body>
+</html>
