@@ -1,0 +1,264 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700,800');
+
+body {
+  font-family:"Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  padding-top: 0px;
+}
+
+
+/* ###########
+   NAVIGATION 
+   ########### */
+
+.navbar-default {
+  background-color: #ffffff;
+  border: none;
+  box-shadow: none;
+}
+
+.navbar-header {
+  margin-bottom: 20px;
+}
+
+.navbar-collapse {
+    padding-left: 0px;
+    padding-right: 0px;
+    border-top: none;
+}
+
+.navbar .container-fluid {
+  border: none;
+  background-color: #fff;
+  background-image: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  padding-left: 0px;
+}
+
+.navbar .nav {
+    margin-top: 50px;
+}
+
+.navbar ul.nav {
+  -webkit-box-shadow: 0 1px 10px rgba(0,0,0,0.1);
+  -moz-box-shadow: 0 1px 10px rgba(0,0,0,0.1);
+  box-shadow: 0 1px 10px rgba(0,0,0,0.1);
+  border-bottom: 1px solid #bbb;
+  padding-left:8px;
+  padding-right:8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px; 
+  border-radius: 8px;
+  background-color: #e5e5e5;
+  background-image: -moz-linear-gradient(top, #eee, #e5e5e5);
+  background-image: -ms-linear-gradient(top, #eee, #e5e5e5);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#eee), to(#e5e5e5));
+  background-image: -webkit-linear-gradient(top, #eeeeee, #e5e5e5);
+  background-image: -o-linear-gradient(top, #eee, #e5e5e5);
+  background-image: linear-gradient(top, #eee, #e5e5e5);
+  background-repeat: repeat-x;
+}
+
+.navbar .nav > li {
+    border-right: 1px solid #eee;
+    border-left: 1px solid #e5e5e5;
+}
+
+.navbar .nav > li > a {
+    text-shadow: 1px 1px 2px rgba(0,0,0,.1);
+    padding: 12px 12px 12px 12px;
+    margin: 0;
+    color: #555;
+    font-size: 16px;
+}
+
+.navbar .nav > li:hover {
+    background-color: #d5d5d5;
+    background-image: none;
+}
+
+.navbar .nav > .myactive {
+    text-decoration: none;
+    background-color: #d5d5d5;
+    background-image: none;
+}
+
+
+/*=================
+  CAROUSEL 
+===================*/
+
+.carousel {
+  margin-left: 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 0px;
+  padding-right: 0px;
+  background-color: #000;
+}
+
+.carousel .container {
+  position: relative;
+  z-index: 9;
+  padding-left: 0px;
+  padding-right: 0px;
+  width: 100%;
+}
+
+.carousel .glyphicon-chevron-left,
+.carousel .glyphicon-chevron-right {
+    top: 55%;
+}
+
+.carousel .glyphicon-chevron-left {
+    left: 25%;
+}
+
+.carousel .glyphicon-chevron-right {
+    right: 25%;
+}
+
+.carousel-indicators {
+    bottom: 5px;
+}
+
+.carousel .item {
+    height: 275px;
+    font-size:10px;
+}
+
+@media (min-width: 992px) {
+    .carousel .item {
+        height: 360px;
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .carousel .item {
+        height: 435px;
+        font-size: 16px;
+    }
+}
+
+
+.carousel img {
+  position: absolute;
+  top: 0;
+  left: 0; 
+  min-width: 100%;
+}
+
+.carousel-caption {
+  background-color: rgba(0,0,0, 0.6);
+  position: static;
+  padding: 0px 20px 10px 20px;
+  margin-top: 0px;
+  margin-left: 0px;
+}
+
+.carousel-caption h1,
+.carousel-caption .lead {
+  text-align: left;
+  margin: 0;
+  line-height: 1.25;
+  color: #fff;
+  text-shadow: 0 1px 1px rgba(0,0,0,.5);
+}
+
+.carousel-caption h1 {
+  font-size:1.5em;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  font-weight: 800;
+}
+
+.carousel-caption p {
+  font-size:1.15em;
+}
+
+.carousel-caption .btn {
+  margin-top: 0.1em;
+  margin-left: 2em;
+  font-size: 1.0em;
+  padding: 8px;
+}
+
+.carousel-credit {
+  background-color: rgba(0,0,0, 0.6);
+  text-shadow: 0 1px 1px rgba(0,0,0,.5);
+  position: absolute;
+  bottom: -8px;
+  right: 0px;
+  padding: 8px;
+  z-index: 8;
+}
+
+.carousel-credit p {
+  font-size: 0.9em;
+  color: #ddd;
+  text-align: right;
+}
+
+
+/* ###########
+   INDEX PAGE LINKS
+   ########### */
+
+.about > div {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.about h3 {
+    margin: 0;
+    text-align: left;
+}
+
+.about i {
+    margin-right: 8px;
+    font-size: 1em;
+}
+
+a.about {
+    margin: 0;
+    text-align: left;  
+    font-size: 24.5px;
+    margin-bottom: 30px; 
+    line-height: 40px;
+    color: #2d2d2d;
+    text-rendering: optimizelegibility;
+}
+
+a.about:hover {
+    text-decoration: none;
+}
+
+
+/* ###########
+   FOOTER
+   ########### */
+
+.footer {
+    border-top: 1px solid #ddd;
+    background-color: #eee;
+    color: #777;
+    font-size: 0.9em;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.footer .container {
+    text-align: center;
+    padding: 10px;
+}
+
+
+/* ###########
+   HACKS
+   ########### */
+
+/* Avoid a vertical scrollbar in the collapsed navbar */
+.navbar-collapse.in {
+    overflow-y: visible;
+}
