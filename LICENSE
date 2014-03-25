@@ -1,1 +1,10 @@
 Copyright (c) 2014 by the authors. All rights reserved.
+
+This copyright notice does not apply to the external dependencies 
+which are present in the assets/ sub-directory, including bootstrap,
+jquery and font-awesome. Their copyright and license information
+is found here:
+
+https://github.com/twbs/bootstrap/blob/master/LICENSE
+https://github.com/jquery/jquery/blob/master/MIT-LICENSE.txt
+https://github.com/FortAwesome/Font-Awesome
