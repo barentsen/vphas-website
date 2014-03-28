@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--#include virtual="inc/head.html" -->
+    <title>VPHAS+: Data</title>
+  </head>
+  <body>
+    <!--#include virtual="inc/navbar.html" -->
+    <div class="container">
+    <!-- CONTENT STARTS HERE -->
+
+
+      <div class="page-header">
+        <h1>Data access</h1>
+      </div>
+
+      <p>Because VPHAS+ is an <a href="http://www.eso.org/sci/observing/PublicSurveys/sciencePublicSurveys.html">ESO Public Survey</a>, all data will be released to the public. Initial public data products include reduced images and unstacked single-band source lists. In the future, we envisage that a well-validated catalogue will be made available that provides 5 optical photometric data points per source at an external (systematic) precision of 0.02—0.03 magnitudes on around 200 million objects.</p>
+
+
+      <h3>Data release 1 (April 2013)</h3>
+
+      <p>The first public data release, VPHAS-DR1, was made available in 2013 through a <a href="http://www.eso.org/sci/observing/phase3/data_releases.html">dedicated page on the ESO website</a>. The release covers the first 9 months of data-taking in which a tenth of the survey footprint was observed to desired quality. These first pointings have favoured the Galactic equator and some well-known open clusters of interest to the Gaia-ESO Survey. The contents of the release are described in an <a href="https://www.eso.org/sci/observing/phase3/data_releases/vphasplus_dr1.pdf">accompanying document</a> and the reduced images and unstacked single-band source lists can be accessed through the <a href="http://archive.eso.org/wdb/wdb/adp/phase3_main/form?phase3_collection=VPHASplus&release_tag=1">ESO phase 3 query interface</a>.
+      <p>
+
+      <h3>Acknowledgement instructions</h3>
+
+      <p>Users of VPHAS+ data should cite <a href="http://adsabs.harvard.edu/abs/2014arXiv1402.7024D">Drew et al (2014)</a> and acknowledge the source of the data as follows:</p>
+
+      <blockquote>
+      <p>
+      Based on data products from observations made with ESO Telescopes at the La Silla Paranal Observatory under programme ID 177.D-3023, as part of the VST Photometric Hα Survey of the Southern Galactic Plane and Bulge (VPHAS+, www.vphas.eu).
+      </p>
+      </blockquote>
+
+
+
+    <!-- CONTENT ENDS HERE -->
+    </div><!-- /container -->
+    <!--#include virtual="inc/footer.html" -->
+  </body>
+</html>
