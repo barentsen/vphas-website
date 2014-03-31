@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--#include virtual="inc/head.html" -->
+    <title>VPHAS+: Gallery</title>
+  </head>
+  <body>
+    <!--#include virtual="inc/navbar.html" -->
+    <div class="container">
+    <!-- CONTENT STARTS HERE -->
+
+
+      <div class="page-header">
+        <h2>Gallery</h2>
+      </div>
+
+      <div class="page-header">
+      <h4>Lagoon Nebula (M8)</h4>
+      </div>
+
+      <p>The image below shows a VPHAS-based mosaic of the star-forming region Messier 8 (the Lagoon Nebula) prepared by ESO as part of <a href="http://www.eso.org/public/unitedkingdom/news/eso1403/">press release 1403</a>.</p>
+
+      <p>
+      <a href='images/vphas_lagoon.jpg'><img src='images/vphas_lagoon_small.jpg' class='img-responsive' /></a>
+      </p>
+
+      <p>Image credit: ESO/VPHAS+ team.</p>
+
+      <p>The press release was accompanied by an animation which takes the viewer from a wide view of the Milky Way to the mosaic:</p>
+
+      <div id='flashplayer'>Loading player...</div><script type='text/javascript' src='http://www.eso.org/public/archives/djangoplicity/shadowbox3/libraries/mediaplayer5/jwplayer.js'></script><script type='text/javascript'>var sdfile = 'http://www.eso.org/public/archives/videos/medium_flash/eso1403a.flv';var imagefile = 'http://www.eso.org/public/archives/videos/videoframe/eso1403a.jpg';var flashsrc = 'http://www.eso.org/public/archives/djangoplicity/shadowbox3/libraries/mediaplayer5/player.swf';var sharelink = 'http://www.eso.org/public/unitedkingdom/videos/eso1403a/';var sharecode = '';var gaid = 'UA-1965004-1';var ipadfile = 'http://www.eso.org/public/archives/videos/medium_podcast/eso1403a.m4v';var mobilefile = 'http://www.eso.org/public/archives/videos/medium_podcast/eso1403a.m4v';var hdfile = 'http://www.eso.org/public/archives/videos/hd_and_apple/eso1403a.m4v';;</script><script type='text/javascript' src='http://www.eso.org/public/archives/djangoplicity/js/videoembed.js'></script>
+
+      <p>Animation credit: ESO/VPHAS+ team/Digitized Sky Survey 2/<a href="skysurvey.org">Nick Risinger</a>. Music: <a href="http://www.movetwo.de/">movetwo</a>.</p>
+
+
+      <div class="page-header">
+      <h4>NGC 3293 and NGC 3324</h4>
+      </div>
+
+      <p>The image below shows an u/g/Hα mosaicked image of NGC 3293 (open cluster, middle top) and NGC 3324 (HII region, centre left) in Carina, made from data obtained in 2012, during the first season of survey data taking. The area shown is a little over 1 square degree. (Mosaic credit: VPHAS+/H. Farnhill)</p>
+
+      <p>
+      <a href='images/vphas_ngc3293_ngc3324.jpg'><img src='images/vphas_ngc3293_ngc3324_small.jpg' class='img-responsive' /></a>
+      </p>
+
+      <p>Mosaic credit: VPHAS+/Hywel Farnhill.</p>
+
+    <!-- CONTENT ENDS HERE -->
+    </div><!-- /container -->
+    <!--#include virtual="inc/footer.html" -->
+  </body>
+</html>
