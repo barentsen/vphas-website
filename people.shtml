@@ -10,40 +10,24 @@
     <!-- CONTENT STARTS HERE -->
 
     <div class="page-header">
-      <h1>The Collaboration</h1>
+      <h2>Contact Details</h2>
     </div>
 
-<h3>PI Contact Details</h3>
-<table class="table">
-  <tr>
-    <td class="field">Name:</td>
-    <td><b>Janet Drew</b></td>
-  </tr>
-  <tr>
-    <td class="field">Address:</td>
-    <td>Centre for Astrophysics Research,<br />
-    STRI,<br />
-    University of Hertfordshire,<br />
-    College Lane Campus,<br />
-    Hatfield,<br />
-    AL10 9AB,<br />
-    UK.</td>
-  </tr>
-  <tr>
-    <td class="field">Phone:</td>
-    <td>44-(0)1707-286576</td>
-  </tr>
-  <tr>
-    <td class="field">Fax:</td>
-    <td>44-(0)1707-284514</td>
-  </tr>
-  <tr>
-    <td class="field">Email:</td>
-    <td>j.drew at herts.ac.uk</td>
-  </tr>
-</table>
+<address>
+  <strong>PI: Janet Drew</strong><br>
+  Centre for Astrophysics Research, STRI<br />
+  University of Hertfordshire<br />
+  College Lane Campus<br />
+  Hatfield AL10 9AB<br />
+  United Kingdom<br/><br/>
+  Phone: 44-(0)1707-286576<br/>
+  Fax: 44-(0)1707-284514<br/>
+  E-mail: j.drew at herts.ac.uk
+</address>
 
-<h3>Survey members</h3>
+    <div class="page-header">
+      <h2>Survey members</h2>
+    </div>
 
   <p>(alphabetically, by institution )</p>
 <ul>

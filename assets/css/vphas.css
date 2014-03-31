@@ -262,3 +262,35 @@ a.about:hover {
 .navbar-collapse.in {
     overflow-y: visible;
 }
+
+#sidebar.affix-top {
+    position: relative;
+    margin-top: 40px;
+}
+
+#sidebar.affix {
+    position: fixed;
+    top: 25px;
+}
+
+
+#sidebar li.active {
+    border:0 #eee solid;
+    border-left-width:4px;
+}
+
+#sidebar li {
+    border:0 #fff solid;
+    border-left-width:4px;
+}
+
+.blueimp-gallery > .description {
+  position: absolute;
+  top: 30px;
+  left: 15px;
+  color: #fff;
+  display: none;
+}
+.blueimp-gallery-controls > .description {
+  display: block;
+}

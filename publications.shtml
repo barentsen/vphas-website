@@ -9,12 +9,9 @@
     <div class="container">
     <!-- CONTENT STARTS HERE -->
 
-
       <div class="page-header">
-        <h1>VPHAS Documents and Publications</h1>
+        <h2>Published articles</h2>
       </div>
-
-      <h2>Published articles</h2>
 
 <table class="table table-condensed table-striped">
 <thead>
@@ -58,7 +55,10 @@
       </tr>
       </table>
 
-<h2>Proposals and other documents</h2>
+
+      <div class="page-header">
+        <h2>Proposals and other documents</h2>
+      </div>
 
 <table class="table table-condensed table-striped">
 <thead>

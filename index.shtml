@@ -19,6 +19,7 @@
     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
     <li data-target="#myCarousel" data-slide-to="1"></li>
     <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
   </ol>
   <div class="carousel-inner">
 
@@ -30,7 +31,7 @@
           of the Southern Galactic Plane and Bulge (VPHAS+)</h1>
           <p class="lead">
             <a class="btn btn-primary pull-right" href="survey.shtml">Read the survey description &raquo;</a>
-             VPHAS+ is imaging the Southern Milky Way in visible light (u, g, r, i, Hα) at ~1&thinsp;arcsec resolution to &gt;20th magnitude using the VLT Survey Telescope (VST) in Chile.
+             VPHAS+ is imaging the Southern Milky Way in visible light (u, g, r, i, Hα) at ~1&thinsp;arcsec resolution down to g&nbsp;&gt;&nbsp;22nd magnitude.
           </p>
         </div>
       </div>
@@ -40,29 +41,45 @@
     </div>
 
     <div class="item">
-      <img src="assets/images/carousel-hywel.jpg" alt="VPHAS+" class="img-responsive">
+      <img src="assets/images/carousel-vst.jpg" alt="VPHAS+" class="img-responsive">
       <div class="container">
         <div class="carousel-caption">
-          <h1>Publication: VPHAS+ survey definition paper</h1>
+          <h1>News: VPHAS+ survey paper published</h1>
           <p class="lead">
-            <a class="btn btn-primary pull-right" href="http://arxiv.org/abs/1402.7024">Read the paper on ArXiv &raquo;</a>
-            A paper describing the survey, the data processing and the characteristics of the filter system has been accepted for publication in MNRAS.
+            <a class="btn btn-primary pull-right" href="http://arxiv.org/abs/1402.7024">Read the survey paper on ArXiv &raquo;</a>
+            VPHAS+ uses the VLT Survey Telescope (VST) in Chile. A reference paper describing the survey, the data processing, and the filter system is available now.
           </p>
         </div>
       </div>
       <div class="carousel-credit">
-        <p>Image: VPHAS+/H. Farnhill</p>
+        <p>Image: ESO/<a href="http://glphoto.it/">G. Lombardi</a></p>
       </div>
-    </div> 
-    
+    </div>
+
+    <div class="item">
+      <img src="assets/images/carousel-lagoon.jpg" alt="VPHAS+" class="img-responsive">
+      <div class="container">
+        <div class="carousel-caption">
+          <h1>News: Data Release 1</h1>
+          <p class="lead">
+            <a class="btn btn-primary pull-right" href="data.shtml">Read about data access &raquo;</a>
+            The first public data release, providing reduced images and single-band source lists from the first 9 months of data-taking, has been made available to the public.
+          </p>
+        </div>
+      </div>
+      <div class="carousel-credit">
+        <p>Image: Lagoon Nebula (ESO/VPHAS+)</p>
+      </div>
+    </div>
+
     <div class="item">
       <img src="assets/images/carousel-westerlund1.jpg" alt="Westerlund 1 in VPHAS+" class="img-responsive">
       <div class="container">
         <div class="carousel-caption">
-          <h1>Publication: the ionized nebula surrounding the red supergiant W26</h1>
+          <h1>News: the ionized nebula surrounding the red supergiant W26</h1>
           <p class="lead">
             <a class="btn btn-primary pull-right" href="http://adsabs.harvard.edu/abs/2014MNRAS.437L...1W">Read the paper on ADS &raquo;</a>
-            VPHAS+ has unveiled an ionized nebula around the red supergiant W26 in the massive star cluster Westerlund 1. The object is discussed in Wright et al. 2014 (MNRAS).
+            Early VPHAS+ data has unveiled an ionized nebula around a red supergiant in the massive star cluster Westerlund 1. The object is discussed in Wright et al. 2014 (MNRAS).
           </p>
         </div>
       </div>
@@ -87,17 +104,17 @@
       <div class="row about">
         <div class="col-sm-4">
           <a class="about" href="survey.shtml"><i class="icon-info-sign"></i> Survey</a>
-          <p>VPHAS+ uses VST/OmegaCam to survey the Southern Galactic Plane and Bulge in u, g, r, i, Hα down the ~20th magnitude.</p>
+          <p>VPHAS+ uses VST/OmegaCAM to survey the Southern Galactic Plane and Bulge in u, g, r, i, Hα down the ~20th magnitude.</p>
           <p><a class="btn btn-default" href="survey.shtml">More &raquo;</a></p>
         </div>
         <div class="col-sm-4">
           <a class="about" href="science.shtml"><i class="icon-beaker"></i> Science</a>
-          <p>VPHAS+ photometry allows a range of rare and short-lived object types to be discovered and characterised.</p>
+          <p>Our photometry allows a range of rare and short-lived object types to be discovered and characterised.</p>
           <p><a class="btn btn-default" href="science.shtml">More &raquo;</a></p>
         </div>
         <div class="col-sm-4">
-          <a class="about" href="gallery.shtml"><i class="icon-film"></i> Image gallery</a>
-          <p>VPHAS+ images can be used to construct wide-area mosaics of star-forming regions and extended objects.</p>
+          <a class="about" href="gallery.shtml"><i class="icon-film"></i> Gallery</a>
+          <p>Our images can be used to construct wide-area mosaics of star-forming regions and extended objects.</p>
           <p><a class="btn btn-default" href="gallery.shtml">More &raquo;</a></p>
         </div>
       </div>
@@ -105,7 +122,7 @@
       <div class="row about">
           <div class="col-sm-4">
             <a class="about" href="data.shtml"><i class="icon-download-alt"></i> Data access</a>
-            <p>VPHAS+ is an ESO Public Survey which provides regular public data releases.</p>
+            <p>VPHAS+ is an ESO Public Survey which provides public data releases.</p>
             <p><a class="btn btn-default" href="data.shtml">More &raquo;</a></p>
           </div>
           <div class="col-sm-4">
@@ -130,7 +147,7 @@
       !function ($) {
         $(function(){
           $('#myCarousel').carousel({
-            interval: 5000
+            interval: 6000
             })
         })
       }(window.jQuery)
