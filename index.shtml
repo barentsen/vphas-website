@@ -112,7 +112,7 @@
           <p><a class="btn btn-default" href="science.shtml">More &raquo;</a></p>
         </div>
         <div class="col-sm-4">
-          <a class="about" href="data.shtml"><i class="icon-download-alt"></i> Data access</a>
+          <a class="about" href="data.shtml"><i class="icon-download-alt"></i> Data</a>
           <p>VPHAS+ is an ESO Public Survey which provides public data releases.</p>
           <p><a class="btn btn-default" href="data.shtml">More &raquo;</a></p>
         </div>
