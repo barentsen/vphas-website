@@ -18,13 +18,13 @@
       <h4>Lagoon Nebula (M8)</h4>
       </div>
 
-      <p>The image below shows a VPHAS-based mosaic of the star-forming region Messier 8 (the Lagoon Nebula) prepared by ESO as part of <a href="http://www.eso.org/public/unitedkingdom/news/eso1403/">press release 1403</a>.</p>
+      <p>The image below shows a VPHAS-based mosaic of the star-forming region Messier 8 (the Lagoon Nebula), which was prepared by ESO as part of a <a href="http://www.eso.org/public/unitedkingdom/news/eso1403/">press release</a>.</p>
 
       <p>
       <a href='images/vphas_lagoon.jpg'><img src='images/vphas_lagoon_small.jpg' class='img-responsive' /></a>
       </p>
 
-      <p>Image credit: ESO/VPHAS+ team.</p>
+      <p>Credit: ESO/VPHAS+ team.</p>
 
       <p>The press release was accompanied by an animation which takes the viewer from a wide view of the Milky Way to the mosaic:</p>
 
@@ -32,18 +32,29 @@
 
       <p>Animation credit: ESO/VPHAS+ team/Digitized Sky Survey 2/<a href="skysurvey.org">Nick Risinger</a>. Music: <a href="http://www.movetwo.de/">movetwo</a>.</p>
 
-
       <div class="page-header">
-      <h4>NGC 3293 and NGC 3324</h4>
+        <h4>Westerlund 1</h4>
       </div>
 
-      <p>The image below shows an u/g/Hα mosaicked image of NGC 3293 (open cluster, middle top) and NGC 3324 (HII region, centre left) in Carina, made from data obtained in 2012, during the first season of survey data taking. The area shown is a little over 1 square degree. (Mosaic credit: VPHAS+/H. Farnhill)</p>
+      <p>The image below shows a VPHAS-based mosaic of the massive star cluster Westerlund 1. The VPHAS+ data towards this cluster has unveiled an ionized nebula around a red supergiant (see <a href="http://adsabs.harvard.edu/abs/2014MNRAS.437L...1W">Wright et al. 2014</a>), which was the subject of an <a href="http://www.ras.org.uk/component/content/article/224-news-2013/2347-how-the-largest-star-known-is-tearing-itself-apart">RAS press release</a>.</p>
+
+      <p>
+      <a href='images/vphas_westerlund1.jpg'><img src='images/vphas_westerlund1_small.jpg' class='img-responsive' /></a>
+      </p>
+
+      <p>Credit: VPHAS+/Nick Wright.</p>
+
+      <div class="page-header">
+        <h4>NGC 3293 and NGC 3324</h4>
+      </div>
+
+      <p>The image below shows an u/g/Hα mosaicked image of NGC 3293 (open cluster, middle top) and NGC 3324 (HII region, centre left) in Carina, made from data obtained in 2012, during the first season of survey data taking. The area shown is a little over 1 square degree.</p>
 
       <p>
       <a href='images/vphas_ngc3293_ngc3324.jpg'><img src='images/vphas_ngc3293_ngc3324_small.jpg' class='img-responsive' /></a>
       </p>
 
-      <p>Mosaic credit: VPHAS+/Hywel Farnhill.</p>
+      <p>Credit: VPHAS+/Hywel Farnhill.</p>
 
     <!-- CONTENT ENDS HERE -->
     </div><!-- /container -->
