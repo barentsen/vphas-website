@@ -1,7 +1,8 @@
-vphas-website
-=============
+VPHAS+ Survey Website
+=====================
 
-Website for the [VST Photometric H-Alpha Survey](http://www.vphas.eu) (VPHAS) astronomy survey project.
+This repository contains the website for the
+[VST Photometric H-Alpha Survey](http://www.vphas.eu) (VPHAS) astronomy project.
 You can see the website in action at http://www.vphas.eu.
 
 
@@ -17,7 +18,7 @@ cd vphas-website
 python ../ssi-server/ssi_server.py
 ```
 
-...and then simply point your browser at http://localhost:8000
+... and then point your browser at http://localhost:8000
 
 Authors
 -------
