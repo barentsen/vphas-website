@@ -14,16 +14,48 @@
         <h2>Data access</h2>
       </div>
 
-      <p>Because VPHAS+ is an <a href="http://www.eso.org/sci/observing/PublicSurveys/sciencePublicSurveys.html">ESO Public Survey</a>, all data will be released to the public. Initial public data products include reduced images and unstacked single-band source lists. In the future, we envisage that a well-validated catalogue will be made available that provides 5 optical photometric data points per source at an external (systematic) precision of 0.02—0.03 magnitudes on around 200 million objects.</p>
-
+      <p>Because VPHAS+ is
+      an <a href="http://www.eso.org/sci/observing/PublicSurveys/sciencePublicSurveys.html">ESO
+      Public Survey</a>, all data will be released to the
+      public. Initial public data products include reduced images and
+      unstacked single-band source lists. In the future, we envisage
+      that well-validated catalogues will be made available that
+      provide 5 optical photometric data points per source at an
+      external (systematic) precision of 0.02—0.03 magnitudes on,
+      finally, over 300 million objects. From late 2014, work has
+      started on the first of these.</p>
 
       <p>
       <b>Data release 1</b><br/>
       The first public data release, VPHAS-DR1, was made available in 2013 through a <a href="http://www.eso.org/sci/observing/phase3/data_releases.html">dedicated page on the ESO website</a>. The release covers the first 9 months of data-taking in which a tenth of the survey footprint was observed to desired quality. These first pointings have favoured the Galactic equator and some well-known open clusters of interest to the Gaia-ESO Survey. The contents of the release are described in an <a href="https://www.eso.org/sci/observing/phase3/data_releases/vphasplus_dr1.pdf">accompanying document</a> and the reduced images and unstacked single-band source lists can be accessed through the <a href="http://archive.eso.org/wdb/wdb/adp/phase3_main/form?phase3_collection=VPHASplus&release_tag=1">ESO phase 3 query interface</a>.
-      <p>
+      </p>
 
       <p>
-      <b>Acknowledgement instructions</b><br/>
+      <b>Data release 2</b><br/>
+      The second public data release, VPHAS-DR2, is being made
+      available in early 2015 through
+      <a href="http://www.eso.org/sci/observing/phase3/data_releases.html">ESO's
+      dedicated web pages</a> in the same way as VPHAS-DR1. The
+      release covers the first 21 months of data-taking in which the
+      survey progressed to 24 percent completion. The bias in favour
+      of the Galactic equator continues to the extent that much of the
+      mid-Plane is now done (especially in the r, i and Ha filters).
+      The contents of the release are described
+      in <a href="./release-description-dr2-jed.pdf">a
+      second release document (current draft)</a>
+      and the reduced images and unstacked single-band source lists
+      will again be accessible through
+      the <a href="http://archive.eso.org/wdb/wdb/adp/phase3_main/form?phase3_collection=VPHASplus&release_tag=2">ESO
+      phase 3 query interface</a>, after data upload.
+      </p>
+
+      <p>
+      On this page we will be providing links to advice and software
+      that will aid users in customised bandmerging of the released data.
+      </p>
+
+      <p>
+      <b>Data acknowledgment instructions</b><br/>
       Users of VPHAS+ data should cite <a href="http://adsabs.harvard.edu/abs/2014arXiv1402.7024D">Drew et al (2014)</a> and acknowledge the source of the data as follows:
       </p>
 
@@ -32,8 +64,6 @@
       Based on data products from observations made with ESO Telescopes at the La Silla Paranal Observatory under programme ID 177.D-3023, as part of the VST Photometric Hα Survey of the Southern Galactic Plane and Bulge (VPHAS+, www.vphas.eu).
       </p>
       </blockquote>
-
-
 
     <!-- CONTENT ENDS HERE -->
     </div><!-- /container -->
