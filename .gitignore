@@ -1,3 +1,5 @@
 *.sublime*
 tmp
-backup
+backup*
+consortium
+*.pdf
