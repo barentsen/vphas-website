@@ -1,4 +1,4 @@
-@import url('http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700,800');
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,500,700,800');
 
 body {
   font-family:"Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -255,6 +255,73 @@ a.about:hover {
 
 
 /* ###########
+   SIDE NAVIGATION BAR
+   ########### */
+
+.bs-docs-sidebar {
+    padding-left: 20px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.bs-docs-sidebar .nav>li>a {
+    color: #2a6496;
+    padding: 4px 20px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* nested links */
+.bs-docs-sidebar .nav .nav>li>a {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 30px;
+    font-size: 13px;
+}
+
+.bs-docs-sidebar .nav>.active>a {  color: #555; }
+
+.bs-docs-sidebar .nav>li>a {
+    border-left: 2px solid transparent;
+}
+
+/* active & hover links */
+.bs-docs-sidebar .nav>.active>a, 
+.bs-docs-sidebar .nav>li>a:hover, 
+.bs-docs-sidebar .nav>li>a:focus {
+    color: #2a6496;
+    font-weight: 700;      
+    text-decoration: none;          
+    background-color: transparent;  
+    border-left: 2px solid #d5d5d5; 
+}
+
+/* all active links */
+.bs-docs-sidebar .nav>.active>a, 
+.bs-docs-sidebar .nav>.active:hover>a,
+.bs-docs-sidebar .nav>.active:focus>a {
+    font-weight: 700;
+}
+
+/* nested active links */
+.bs-docs-sidebar .nav .nav>.active>a, 
+.bs-docs-sidebar .nav .nav>.active:hover>a,
+.bs-docs-sidebar .nav .nav>.active:focus>a {
+    font-weight: 700;
+}
+
+.bs-docs-sidebar .nav>li>a.back-to-top {
+    font-size: 0.8em;
+    padding-top: 2em;
+}
+
+#sidebar.affix {
+    position: fixed;
+    top:25px;
+
+  }
+
+/* ###########
    HACKS
    ########### */
 
@@ -263,34 +330,13 @@ a.about:hover {
     overflow-y: visible;
 }
 
-#sidebar.affix-top {
-    position: relative;
-    margin-top: 40px;
+h1 {
+    line-height: 1.32em;
 }
 
-#sidebar.affix {
-    position: fixed;
-    top: 25px;
-}
-
-
-#sidebar li.active {
-    border:0 #eee solid;
-    border-left-width:4px;
-}
-
-#sidebar li {
-    border:0 #fff solid;
-    border-left-width:4px;
-}
-
-.blueimp-gallery > .description {
-  position: absolute;
-  top: 30px;
-  left: 15px;
-  color: #fff;
-  display: none;
-}
-.blueimp-gallery-controls > .description {
-  display: block;
+.keyfacts {
+    margin-left: 2em;
+    margin-bottom: 1em;
+    line-height: 1.5em;
+    padding: 1em;
 }
