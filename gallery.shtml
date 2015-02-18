@@ -76,14 +76,14 @@
 <h3 id="baade">A crowded field towards Baade's Window</h3>
 <p>
   The image below shows CCD #18 in VPHAS field 0778a,
-  located at (l, b) = (2.4, -3.1) deg in the constellation of Sagittarius.
-  The field is positioned towards one of the brightest patches
+  positioned at (l, b) = (2.4, -3.1) deg in the constellation of Sagittarius.
+  The field is located towards one of the brightest patches
   of the Milky Way, called Baade's Window, which is thought to show
   very low levels of extinction.
   Despite being relatively unobscured, a small cloud of interstellar dust
-  can be seen to hide some stars in the central part of the image.
+  can be seen to hide some stars in the centre of the image.
   The data were taken on 2012-07-06 (H-alpha, r, i)
-  and 2013-06-03 (u, g, r) at ~0.8 arcsec seeing.
+  and 2013-06-03 (u, g, r), under ~0.8 arcsec seeing.
 </p>
 <p>
 <a href='images/vphas-0778a-18.jpg'><img src='images/vphas-0778a-18-small.jpg' class='img-responsive' /></a>
@@ -91,8 +91,9 @@
 
 <h3 id="cluster">The open cluster NGC 6520</h3>
 <p>
-  Same field as above, but this time showing CCD #27.
-  The bottom-right part of the image contains the open cluster NGC 6520.
+  The image below is taken from the same field as above,
+  but this time CCD #27 is shown.
+  The open cluster NGC 6520 can be seen towards the bottom-right of the image.
   The blue colour of the cluster members indicates that these stars
   are bright in the survey's u- and g-bands.
 </p>
@@ -103,9 +104,9 @@
 <h3 id="wr">The Wolf-Rayet star WR 31a</h3>
 <p>
   The image below shows CCD #4 of VPHAS field 1789a,
-  which is located on the outskirts of the Carina Nebula.
-  A known Wolf-Rayet star, WR 31a, is apparent on the left half of the image.
-  The object is surrounded by an ionized nebula.
+  which is located in the outskirts of the Carina Nebula.
+  A known Wolf-Rayet star, WR 31a, is apparent to the left.
+  An ionized nebula can be seen to surround the object.
 </p>
 <p>
 <a href='images/vphas-1789a-4.jpg'><img src='images/vphas-1789a-4-small.jpg' class='img-responsive' /></a>
