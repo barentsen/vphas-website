@@ -8,56 +8,189 @@
     <!--#include virtual="inc/navbar.html" -->
     <div class="container">
     <!-- CONTENT STARTS HERE -->
+      <div class="row">
+        <div class="col-sm-3 visible-sm visible-md visible-lg bs-docs-sidebar" id="sidebarCol">
+          <ul class="nav nav-stacked fixed" id="sidebar">
+            <li>
+              <a href="#singleccd">Single-CCD examples</a>
+              <ul class="nav nav-stacked fixed">
+                <li>
+                  <a href="#baade">Baade's window</a>
+                </li>
+                <li>
+                  <a href="#cluster">Open cluster</a>
+                </li>
+                <li>
+                  <a href="#wr">Wolf-Rayet star</a>
+                </li>
+                <li>
+                  <a href="#nebulosity">Nebula details</a>
+                </li>
+              </ul>
+            </li>
+            <li><a href="#mosaics">Wide-area mosaics</a>
+              <ul class="nav nav-stacked fixed">
+                <li>
+                  <a href="#lagoon">Lagoon Nebula</a>
+                </li>
+                <li>
+                  <a href="#westerlund1">Westerlund 1</a>
+                </li>
+                <li>
+                  <a href="#ngc3293">NGC 3293 &amp; 3324</a>
+                </li>
+              </ul>
+            </li>
+            <li><a class="back-to-top" href="#top">Back to top</a></li>
+          </ul>
+        </div>
+
+        <div class="col-sm-9">
+
+<div class="page-header">
+  <h1>VPHAS+ gallery</h1>
+</div>
+
+<p>
+  VPHAS+ is able to take advantage of the high-quality active optics
+  of the VLT Survey Telescope (VST),
+  which, along with the good atmospheric conditions at Paranal,
+  allow images to be obtained which routinely benefit
+  from sub-arcsecond seeing.
+  This page offers a few examples of the imaging data.
+</p>
+
+<div class="page-header">
+<h2 id="singleccd">Single-CCD examples</h2>
+</div>
+<p>
+  The OmegaCAM instrument covers a 1 degree x 1 degree area of the sky
+  with 16k x 16k pixels.
+  The colour mosaics below show examples of images obtained using a single
+  4100 x 2048 pixels chip, corresponding to 15 x 7.5 arcmin.
+  Click on the images to view them at the native resolution
+  of 0.21 arcsec/pixel (albeit JPG-compressed).
+  The red, green, and blue colours correspond to the (u+g, g+r, i+Halpha) intensities.
+</p>
+
+<h3 id="baade">A crowded field towards Baade's Window</h3>
+<p>
+  The image below shows CCD #18 in VPHAS field 0778a,
+  located at (l, b) = (2.4, -3.1) deg in the constellation of Sagittarius.
+  The field is positioned towards one of the brightest patches
+  of the Milky Way, called Baade's Window, which is thought to show
+  very low levels of extinction.
+  Despite being relatively unobscured, a small cloud of interstellar dust
+  can be seen to hide some stars in the central part of the image.
+  The data were taken on 2012-07-06 (H-alpha, r, i)
+  and 2013-06-03 (u, g, r) at ~0.8 arcsec seeing.
+</p>
+<p>
+<a href='images/vphas-0778a-18.jpg'><img src='images/vphas-0778a-18-small.jpg' class='img-responsive' /></a>
+</p>
+
+<h3 id="cluster">The open cluster NGC 6520</h3>
+<p>
+  Same field as above, but this time showing CCD #27.
+  The bottom-right part of the image contains the open cluster NGC 6520.
+  The blue colour of the cluster members indicates that these stars
+  are bright in the survey's u- and g-bands.
+</p>
+<p>
+<a href='images/vphas-0778a-27.jpg'><img src='images/vphas-0778a-27-small.jpg' class='img-responsive' /></a>
+</p>
+
+<h3 id="wr">The Wolf-Rayet star WR 31a</h3>
+<p>
+  The image below shows CCD #4 of VPHAS field 1789a,
+  which is located on the outskirts of the Carina Nebula.
+  A known Wolf-Rayet star, WR 31a, is apparent on the left half of the image.
+  The object is surrounded by an ionized nebula.
+</p>
+<p>
+<a href='images/vphas-1789a-4.jpg'><img src='images/vphas-1789a-4-small.jpg' class='img-responsive' /></a>
+</p>
+
+<h3 id="nebulosity">Details in the Carina Nebula</h3>
+<p>
+  The image below shows CCD #2 of VPHAS field 1788a.
+  Located 45 arcmin South of eta-Carinae, the image shows
+  spectacular details of the Carina Nebula.
+</p>
+<p>
+<a href='images/vphas-1788a-2.jpg'><img src='images/vphas-1788a-2-small.jpg' class='img-responsive' /></a>
+</p>
 
 
-      <div class="page-header">
-        <h2>Gallery</h2>
-      </div>
+<div class="page-header">
+<h2 id='mosaics'>Wide-area mosaics</h2>
+</div>
 
-      <div class="page-header">
-      <h4>Lagoon Nebula (M8)</h4>
-      </div>
+<h3 id="lagoon">Lagoon Nebula (M8)</h3>
+<p>
+  The image below shows a VPHAS-based mosaic
+  of the star-forming region Messier 8 (the Lagoon Nebula),
+  which was prepared by ESO as part of a
+  <a href="http://www.eso.org/public/unitedkingdom/news/eso1403/">press release</a>.
+</p>
+<p>
+  <a href='images/vphas_lagoon.jpg'><img src='images/vphas_lagoon_small.jpg' class='img-responsive' /></a>
+</p>
+<p>Credit: ESO/VPHAS+ team.</p>
 
-      <p>The image below shows a VPHAS-based mosaic of the star-forming region Messier 8 (the Lagoon Nebula), which was prepared by ESO as part of a <a href="http://www.eso.org/public/unitedkingdom/news/eso1403/">press release</a>.</p>
+<p>
+  The press release was accompanied by an animation
+  which takes the viewer from a wide view of the Milky Way to the mosaic:
+</p>
 
-      <p>
-      <a href='images/vphas_lagoon.jpg'><img src='images/vphas_lagoon_small.jpg' class='img-responsive' /></a>
-      </p>
+<div id='flashplayer'>Loading player...</div><script type='text/javascript' src='http://www.eso.org/public/archives/djangoplicity/shadowbox3/libraries/mediaplayer5/jwplayer.js'></script><script type='text/javascript'>var sdfile = 'http://www.eso.org/public/archives/videos/medium_flash/eso1403a.flv';var imagefile = 'http://www.eso.org/public/archives/videos/videoframe/eso1403a.jpg';var flashsrc = 'http://www.eso.org/public/archives/djangoplicity/shadowbox3/libraries/mediaplayer5/player.swf';var sharelink = 'http://www.eso.org/public/unitedkingdom/videos/eso1403a/';var sharecode = '';var gaid = 'UA-1965004-1';var ipadfile = 'http://www.eso.org/public/archives/videos/medium_podcast/eso1403a.m4v';var mobilefile = 'http://www.eso.org/public/archives/videos/medium_podcast/eso1403a.m4v';var hdfile = 'http://www.eso.org/public/archives/videos/hd_and_apple/eso1403a.m4v';;</script><script type='text/javascript' src='http://www.eso.org/public/archives/djangoplicity/js/videoembed.js'></script>
 
-      <p>Credit: ESO/VPHAS+ team.</p>
+<p>Animation credit: ESO/VPHAS+ team/Digitized Sky Survey 2/<a href="skysurvey.org">Nick Risinger</a>. Music: <a href="http://www.movetwo.de/">movetwo</a>.</p>
 
-      <p>The press release was accompanied by an animation which takes the viewer from a wide view of the Milky Way to the mosaic:</p>
+<h3 id="westerlund1">Westerlund 1</h3>
+<p>
+  The image below shows a VPHAS-based mosaic
+  of the massive star cluster Westerlund 1.
+  The VPHAS+ data towards this cluster has unveiled an ionized nebula
+  around a red supergiant (see <a href="http://adsabs.harvard.edu/abs/2014MNRAS.437L...1W">Wright et al. 2014</a>),
+  which was the subject of an <a href="http://www.ras.org.uk/component/content/article/224-news-2013/2347-how-the-largest-star-known-is-tearing-itself-apart">RAS press release</a>.
+</p>
+<p>
+  <a href='images/vphas_westerlund1.jpg'><img src='images/vphas_westerlund1_small.jpg' class='img-responsive' /></a>
+</p>
+<p>Credit: VPHAS+/Nick Wright.</p>
 
-      <div id='flashplayer'>Loading player...</div><script type='text/javascript' src='http://www.eso.org/public/archives/djangoplicity/shadowbox3/libraries/mediaplayer5/jwplayer.js'></script><script type='text/javascript'>var sdfile = 'http://www.eso.org/public/archives/videos/medium_flash/eso1403a.flv';var imagefile = 'http://www.eso.org/public/archives/videos/videoframe/eso1403a.jpg';var flashsrc = 'http://www.eso.org/public/archives/djangoplicity/shadowbox3/libraries/mediaplayer5/player.swf';var sharelink = 'http://www.eso.org/public/unitedkingdom/videos/eso1403a/';var sharecode = '';var gaid = 'UA-1965004-1';var ipadfile = 'http://www.eso.org/public/archives/videos/medium_podcast/eso1403a.m4v';var mobilefile = 'http://www.eso.org/public/archives/videos/medium_podcast/eso1403a.m4v';var hdfile = 'http://www.eso.org/public/archives/videos/hd_and_apple/eso1403a.m4v';;</script><script type='text/javascript' src='http://www.eso.org/public/archives/djangoplicity/js/videoembed.js'></script>
+<h3 id="ngc3293">NGC 3293 and NGC 3324</h3>
+<p>
+  The image below shows an u/g/Hα mosaicked image of NGC 3293
+  (open cluster, middle top) and NGC 3324 (HII region, centre left) in Carina,
+  created using data obtained in 2012,
+  during the first season of survey data taking.
+  The area shown is a little over one square degree.
+</p>
+<p>
+  <a href='images/vphas_ngc3293_ngc3324.jpg'><img src='images/vphas_ngc3293_ngc3324_small.jpg' class='img-responsive' /></a>
+</p>
+<p>Credit: VPHAS+/Hywel Farnhill.</p>
 
-      <p>Animation credit: ESO/VPHAS+ team/Digitized Sky Survey 2/<a href="skysurvey.org">Nick Risinger</a>. Music: <a href="http://www.movetwo.de/">movetwo</a>.</p>
-
-      <div class="page-header">
-        <h4>Westerlund 1</h4>
-      </div>
-
-      <p>The image below shows a VPHAS-based mosaic of the massive star cluster Westerlund 1. The VPHAS+ data towards this cluster has unveiled an ionized nebula around a red supergiant (see <a href="http://adsabs.harvard.edu/abs/2014MNRAS.437L...1W">Wright et al. 2014</a>), which was the subject of an <a href="http://www.ras.org.uk/component/content/article/224-news-2013/2347-how-the-largest-star-known-is-tearing-itself-apart">RAS press release</a>.</p>
-
-      <p>
-      <a href='images/vphas_westerlund1.jpg'><img src='images/vphas_westerlund1_small.jpg' class='img-responsive' /></a>
-      </p>
-
-      <p>Credit: VPHAS+/Nick Wright.</p>
-
-      <div class="page-header">
-        <h4>NGC 3293 and NGC 3324</h4>
-      </div>
-
-      <p>The image below shows an u/g/Hα mosaicked image of NGC 3293 (open cluster, middle top) and NGC 3324 (HII region, centre left) in Carina, made from data obtained in 2012, during the first season of survey data taking. The area shown is a little over 1 square degree.</p>
-
-      <p>
-      <a href='images/vphas_ngc3293_ngc3324.jpg'><img src='images/vphas_ngc3293_ngc3324_small.jpg' class='img-responsive' /></a>
-      </p>
-
-      <p>Credit: VPHAS+/Hywel Farnhill.</p>
+        </div><!-- /col-sm-9 -->
+      </div><!-- /row -->
 
     <!-- CONTENT ENDS HERE -->
     </div><!-- /container -->
     <!--#include virtual="inc/footer.html" -->
+
+    <script>
+      $('#sidebar').affix({
+            offset: {
+              top: 100
+            }
+      });
+      var $body = $(document.body);
+      $body.scrollspy({
+        target: '#sidebarCol',
+        offset: 200
+      });
+    </script>
   </body>
 </html>

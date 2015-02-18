@@ -66,6 +66,12 @@
       </p>
       </blockquote>
 
+      <p>
+      <b>Known issues</b><br/>
+      Like any other data set, VPHAS+ is affected by a number of caveats.
+      Please refer to the <a href="known-issues.shtml">dedicated web-page on known issues</a> to learn more.
+      </p>
+
     <!-- CONTENT ENDS HERE -->
     </div><!-- /container -->
     <!--#include virtual="inc/footer.html" -->

@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--#include virtual="inc/head.html" -->
+    <title>VPHAS+: Known Issues</title>
+  </head>
+  <body>
+    <!--#include virtual="inc/navbar.html" -->
+    <div class="container">
+    <!-- CONTENT STARTS HERE -->
+      <div class="row">
+        <div class="col-sm-3 visible-sm visible-md visible-lg bs-docs-sidebar" id="sidebarCol">
+          <ul class="nav nav-stacked fixed" id="sidebar">
+            <li>
+              <a href="#straylight">Stray light</a>
+              <ul class="nav nav-stacked fixed">
+                <li>
+                    <a href="#flats">Flat-fielding errors</a>
+                </li>
+                <li>
+                    <a href="#ghosts">Ghosts and stripes</a>
+                </li>
+                <li>
+                    <a href="#lines">Wispy lines</a>
+                </li>
+                <li>
+                    <a href="#streaks">Streaks and gradients</a>
+                </li>
+              </ul>
+            </li>
+            <li><a href="#pointing">Pointing accuracy</a></li>
+            <li><a href="#filters">Filter issues</a></li>
+            <li><a class="back-to-top" href="#top">Back to top</a></li>
+          </ul>
+        </div>
+
+        <div class="col-sm-9">
+
+<h1>Known issues in VPHAS+ data</h1>
+
+<p>Owing to the good optical quality of the VST,
+and to the quality control procedures which are applied
+by both ESO and the survey team,
+the quality of VPHAS+ data tends to be excellent.
+Like any other data set however, VPHAS+ is affected by
+a number of caveats.
+This page summarises a range of issues presently known.
+</p>
+
+<div class="page-header">
+  <h2 id="straylight">Stray light</h2>
+</div>
+
+<h3 id="flats">Flat-fielding errors</h3>
+
+<p>
+All the VST/OmegaCAM exposures are known to contain a significant component
+of stray light, which is dominated by a centrally concentrated radial pattern
+which causes the flat-field frames to be "overexposed" in the center
+of the FOV. As a result, the flat-fielded science images contain an
+artificial zeropoint gradient of up to ~10%,
+which needs to be corrected for
+in order to achieve a good photometric calibration.
+A discussion on the issue is offered in 
+Sect 2.9 of <a href="http://www.eso.org/sci/facilities/paranal/instruments/omegacam/doc.html">the OmegaCAM manual</a>,
+and in the dedicted <a href="http://wiki.astro-wise.org/_media/projects:omegacam:portal:ocam_illum.pdf">OmegaCAM commissioning report</a>.
+Details on how the VPHAS+ survey mitigates the issue is found in
+Sect 2.3.3 of the <a href="http://arxiv.org/pdf/1402.7024v2.pdf">VPHAS+ introductory paper</a>,
+and on the <a href="http://casu.ast.cam.ac.uk/surveys-projects/vst/technical/scattered-light-and-illumination-correction">CASU webpage</a> on the topic.
+</p>
+
+<h3 id="ghosts">Ghosts and stripes</h3>
+
+<p>
+Apart from the radially concentrated stray light which is present
+in <em>all the images</em>, the data is also affected by reflections
+on small spatial scales.
+For example, bright stars trigger several ghost images 
+which are reasonably well-focused.
+An example is shown below.
+A characterisation of the ghosts is given in Sect 3.7.3
+of <a href="http://www.eso.org/sci/facilities/paranal/instruments/omegacam/doc.html">the OmegaCAM manual</a>.
+</p>
+
+<p>
+<a href='images/known-issues-1952b-1.jpg'>
+<img src='images/known-issues-1952b-1-small.jpg' width="600">
+</a><br/>
+<i>
+Figure: colour-mosaic of CCD #1 in VPHAS field 1952b.
+A bright star is seen to trigger several ghost images and diffraction spikes.
+</i>
+</p>
+
+<p>
+<a href='images/known-issues-1737a-28.jpg'>
+<img src='images/known-issues-1737a-28-small.jpg' width="600">
+</a><br/>
+<i>
+Figure: colour-mosaic of CCD #28 in VPHAS field 1737a.
+Stripes can be seen which are thought to be caused by a bright star outside the field.
+</i>
+</p>
+
+<h3 id="lines">Wispy lines</h3>
+
+<p>
+VPHAS+ frames are occasionally found to show wispy lines, bright streaks,
+and background gradients which are not well understood at present.
+The working hypothesis is that these features are the result of
+stray light from an unknown origin, possibly a bright star
+outside of the field of view.
+</p>
+
+<p>
+In particular, we warn users that some of the wispy lines
+may be mistaken for the pattern produced by a supernova remnant.
+Fields which are known to include wispy lines are
+0004, 0005, 0032, 0034, 0035,
+0082, 0636, 0687, 0688, 0712,
+0713, 0714, 0774, 0775, 0798,
+0799, 0800, 0825, 0826, 0853,
+0878, 0903, 1501, 1669, 1817b,
+1818, 1850, and 1959.
+</p>
+
+<p>A few examples are shown below.</p>
+
+<p>
+<a href='images/known-issues-0713a-8.jpg'>
+<img src='images/known-issues-0713a-8-small.jpg' width="600">
+</a><br/>
+<i>Figure: colour-mosaic of CCD #8 in VPHAS field 0713a.
+Several "wispy lines" are seen in the right half of the image.
+Their origin is not understood at present.</i>
+</p>
+
+<p>
+<a href='images/known-issues-0005a-8.jpg'>
+<img src='images/known-issues-0005a-8-small.jpg' width="600">
+</a><br/>
+<i>Figure: colour-mosaic of CCD #8 in VPHAS field 0853a.
+A subtle pattern of wispy lines is seen in the left half of the image.</i>
+</p>
+
+
+<h3 id="streaks">Streaks and gradients</h3>
+
+<p>
+Stray light is also seen in extended shapes
+and gradients. The example below shows a streak
+of light scattered into the image from an unknown source.
+</p>
+
+<p>
+<a href='images/known-issues-1818a-8.jpg'>
+<img src='images/known-issues-1818a-8-small.jpg' width="600">
+</a><br/>
+<i>Figure: colour-mosaic of CCD #8 in VPHAS field 1818a.
+A streak of stray light is apparent.
+</i>
+</p>
+
+
+<div class="page-header">
+  <h2 id="pointing">Pointing accuracy</h2>
+</div>
+
+<p>
+The pointing of the VST has been found to show a systematic errors
+of up to 30 arcsec between different nights.
+The one-sigma residual between the requested and the observed position
+equals 7 arcsec (as measured using the VPHAS data taken in 2012 and 2013).
+The red (Ha, r, i) and blue (u, g, r) concatenations are nearly
+always observed on separate nights, and hence the CCD frames
+of the six bands do not usually show a perfect overlap in the sky
+as a result of the pointing errors.
+</p>
+
+<p>
+An example is field 1921, which was observed in the night of
+2013-01-30 (red bands) and 2013-04-02 (blue bands).
+The data from these two nights show a systematic shift in the pointing
+of 30 arcsec in RA and 15 arcsec in Dec.
+As a result, the area in the sky where all 6 bands overlap
+was reduced by 18% compared to the ideal case.
+Most fields show less extreme shifts however.
+</p>
+
+<p>
+The pointing errors are largely mitigated by the fact that each VPHAS
+field is paired with an offset pointing at a distance of -588 arcsec in RA and +660 arcsec in Dec, which is a strategy designed to cover the inter-CCD gaps.
+The pointing errors will increase the small uncovered rectangles which are created where inter-CCD gaps overlap, but these rectangles only comprise
+about 3% of the footprint.
+</p>
+
+<p>
+<a href='images/known-issues-pointing-1921a.png'>
+<img src='images/known-issues-pointing-1921a.png' width="600">
+</a><br/>
+<i>Figure: footprint of the corner of VPHAS pointing 1921a.
+The spatial coverage of the red bands is shown using red lines;
+blue bands are shown using blue lines. The area of overlap is indicated in green. A mis-match between the blue and red pointings is apparent.</i>
+</p>
+
+
+<div class="page-header">
+  <h2 id="filters">Filter issues</h2>
+</div>
+
+<p>
+Users need to be aware of two filter issues:
+<ul>
+<li>the u-band filter is known to contain a small red leak,
+which may cause bright red stars to be mistaken for UV-bright stars;</li>
+<li>the H-alpha filter is subject to a variation in the transmission profile across the field, in part due to its (segmented) construction.</li>
+</ul>
+More information on these issues is contained in the <a href="http://arxiv.org/pdf/1402.7024v2.pdf">VPHAS+ introductory paper</a>.
+</p>
+
+<p>
+Last updated: February 2015.
+</p>
+
+
+        </div><!-- /col-sm-9 -->
+      </div><!-- /row -->
+
+    <!-- CONTENT ENDS HERE -->
+    </div><!-- /container -->
+    <!--#include virtual="inc/footer.html" -->
+
+    <script>
+      $('#sidebar').affix({
+            offset: {
+              top: 100
+            }
+      });
+      var $body = $(document.body);
+      $body.scrollspy({
+        target: '#sidebarCol',
+        offset: 200
+      });
+    </script>
+  </body>
+</html>
