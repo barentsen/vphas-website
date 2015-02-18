@@ -50,8 +50,9 @@
       </p>
 
       <p>
-      On this page we will be providing links to advice and software
-      that will aid users in customised bandmerging of the released data.
+      The means to bandmerge data from the ESO archive or to convert 
+      single-band fluxes into magnitudes is introduced <a href="https://raw.githubusercontent.com/lewyh/vphas-bandmerge-standalone/master/README.md">here</a> 
+      and download of the python software package is available <a href="https://github.com/lewyh/vphas-bandmerge-standalone">here</a>.
       </p>
 
       <p>
