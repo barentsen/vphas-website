@@ -15,10 +15,10 @@
               <a href="#straylight">Stray light</a>
               <ul class="nav nav-stacked fixed">
                 <li>
-                    <a href="#zeropoint">Zeropoint variations</a>
+                    <a href="#flats">Flat-fielding errors</a>
                 </li>
                 <li>
-                    <a href="#ghosts">Ghost images</a>
+                    <a href="#ghosts">Ghosts and stripes</a>
                 </li>
                 <li>
                     <a href="#lines">Wispy lines</a>
@@ -51,22 +51,25 @@ This page summarises a range of issues presently known.
   <h2 id="straylight">Stray light</h2>
 </div>
 
-<h3 id="zeropoint">Zeropoint variations</h3>
+<h3 id="flats">Flat-fielding errors</h3>
 
 <p>
 All the VST/OmegaCAM exposures are known to contain a significant component
 of stray light, which is dominated by a centrally concentrated radial pattern
 which causes the flat-field frames to be "overexposed" in the center
 of the FOV. As a result, the flat-fielded science images contain an
-artificial zeropoint gradient of up to ~10%, which needs to be corrected for
+artificial zeropoint gradient of up to ~10%,
+which needs to be corrected for
 in order to achieve a good photometric calibration.
 A discussion on the issue is offered in 
-Sect 2.3.3 of the <a href="http://arxiv.org/pdf/1402.7024v2.pdf">VPHAS+ introductory paper</a>,
 Sect 2.9 of <a href="http://www.eso.org/sci/facilities/paranal/instruments/omegacam/doc.html">the OmegaCAM manual</a>,
 and in the dedicted <a href="http://wiki.astro-wise.org/_media/projects:omegacam:portal:ocam_illum.pdf">OmegaCAM commissioning report</a>.
+Details on how the VPHAS+ survey mitigates the issue is found in
+Sect 2.3.3 of the <a href="http://arxiv.org/pdf/1402.7024v2.pdf">VPHAS+ introductory paper</a>,
+and on the <a href="http://casu.ast.cam.ac.uk/surveys-projects/vst/technical/scattered-light-and-illumination-correction">CASU webpage</a> on the topic.
 </p>
 
-<h3 id="ghosts">Ghost images</h3>
+<h3 id="ghosts">Ghosts and stripes</h3>
 
 <p>
 Apart from the radially concentrated stray light which is present
@@ -89,6 +92,15 @@ A bright star is seen to trigger several ghost images and diffraction spikes.
 </i>
 </p>
 
+<p>
+<a href='images/known-issues-1737a-28.jpg'>
+<img src='images/known-issues-1737a-28-small.jpg' width="600">
+</a><br/>
+<i>
+Figure: colour-mosaic of CCD #28 in VPHAS field 1737a.
+Stripes can be seen which are thought to be caused by a bright star outside the field.
+</i>
+</p>
 
 <h3 id="lines">Wispy lines</h3>
 
