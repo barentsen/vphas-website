@@ -63,7 +63,7 @@ which needs to be corrected for
 in order to achieve a good photometric calibration.
 A discussion on the issue is offered in 
 Sect 2.9 of <a href="http://www.eso.org/sci/facilities/paranal/instruments/omegacam/doc.html">the OmegaCAM manual</a>,
-and in the dedicted <a href="http://wiki.astro-wise.org/_media/projects:omegacam:portal:ocam_illum.pdf">OmegaCAM commissioning report</a>.
+and in a dedicated <a href="http://wiki.astro-wise.org/_media/projects:omegacam:portal:ocam_illum.pdf">OmegaCAM commissioning report</a>.
 Details on how the VPHAS+ survey mitigates the issue is found in
 Sect 2.3.3 of the <a href="http://arxiv.org/pdf/1402.7024v2.pdf">VPHAS+ introductory paper</a>,
 and on the <a href="http://casu.ast.cam.ac.uk/surveys-projects/vst/technical/scattered-light-and-illumination-correction">CASU webpage</a> on the topic.
@@ -124,7 +124,7 @@ Fields which are known to include wispy lines are
 1818, 1850, and 1959.
 </p>
 
-<p>A few examples are shown below.</p>
+<p>A bright and a faint example are shown below.</p>
 
 <p>
 <a href='images/known-issues-0713a-8.jpg'>
@@ -140,7 +140,7 @@ Their origin is not understood at present.</i>
 <img src='images/known-issues-0005a-8-small.jpg' width="600">
 </a><br/>
 <i>Figure: colour-mosaic of CCD #8 in VPHAS field 0853a.
-A subtle pattern of wispy lines is seen in the left half of the image.</i>
+A faint pattern of wispy lines is seen in the left half of the image.</i>
 </p>
 
 
@@ -168,9 +168,9 @@ A streak of stray light is apparent.
 
 <p>
 The pointing of the VST has been found to show a systematic errors
-of up to 30 arcsec between different nights.
+of up to 30 arcsec, in an absolute sense, between different nights.
 The one-sigma residual between the requested and the observed position
-equals 7 arcsec (as measured using the VPHAS data taken in 2012 and 2013).
+equals 7 arcsec (as measured from the VPHAS data taken in 2012 and 2013).
 The red (Ha, r, i) and blue (u, g, r) concatenations are nearly
 always observed on separate nights, and hence the CCD frames
 of the six bands do not usually show a perfect overlap in the sky
@@ -180,7 +180,7 @@ as a result of the pointing errors.
 <p>
 An example is field 1921, which was observed in the night of
 2013-01-30 (red bands) and 2013-04-02 (blue bands).
-The data from these two nights show a systematic shift in the pointing
+The data from these two different nights show a systematic shift in the pointing
 of 30 arcsec in RA and 15 arcsec in Dec.
 As a result, the area in the sky where all 6 bands overlap
 was reduced by 18% compared to the ideal case.
@@ -190,8 +190,9 @@ Most fields show less extreme shifts however.
 <p>
 The pointing errors are largely mitigated by the fact that each VPHAS
 field is paired with an offset pointing at a distance of -588 arcsec in RA and +660 arcsec in Dec, which is a strategy designed to cover the inter-CCD gaps.
-The pointing errors will increase the small uncovered rectangles which are created where inter-CCD gaps overlap, but these rectangles only comprise
-about 3% of the footprint.
+The pointing errors will increase the size of the holes which are created
+where inter-CCD gaps in the offset pair overlap,
+but these gaps only comprise about 3% of the footprint.
 </p>
 
 <p>
